@@ -14,6 +14,10 @@ div.page-description {
   background-image: url(../assets/bg-poster.jpg);
   background-size: cover;
   height: 150px;
+
+  @supports (background-image: url(../assets/bg-poster.webp)) {
+    background-image: url(../assets/bg-poster.webp);
+  }
 }
 
 a.story-link {
@@ -142,8 +146,8 @@ li.masthead-nav:last-child {
   }
 
   h1.stories-description {
-    font-size: 1.21em;
-    line-height: 1.52em;
+    font-size: 1.2em;
+    line-height: 1.7em;
   }
 }
 @media screen and (min-width: 480px) {
