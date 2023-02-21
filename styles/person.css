@@ -1,307 +1,310 @@
 body {
-	 font-size: 1em;
-	 margin: 0 auto;
+  font-size: 1em;
+  margin: 0 auto;
 }
 
 div.wrapper {
-	 margin: 0 auto;
+  margin: 0 auto;
 }
 
 p.story {
-	 font-size: 1em;
-	 line-height: 1.72em;
-	 font-family: Merriweather;
-	 font-weight: 400;
-	 font-style: normal;
-	 margin: 0px 0px 1.563em 0px;
-	 text-align: left;
-	 margin-bottom: 1.5em;
+  font-size: 1em;
+  line-height: 1.72em;
+  font-family: Merriweather;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px 0px 1.563em 0px;
+  text-align: left;
+  margin-bottom: 1.5em;
+}
+
+p.story i {
+  color: rgb(161, 48, 35);
 }
 
 a.story-link {
-    color: inherit;
-    text-decoration: none;
-    border-bottom: 1px solid;
-    margin-bottom: 2px;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  margin-bottom: 2px;
 }
 
 img {
-	 max-width: 100%;
+  max-width: 100%;
 }
 
 h1.storyteller-name {
-	 font-size: 1.5em;
-	 text-align: center;
-	 margin: 0 0 1em 0;
-	 font-family: "Open Sans";
-	 font-weight: 400;
-	 font-style: normal;
-	 text-transform: uppercase;
-	 padding: 0em 0px 0px 0px;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 0 1em 0;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  padding: 0em 0px 0px 0px;
 }
 
 p.storyteller-bio {
-	 text-align: center;
-	 font-family: "Open Sans";
-	 font-weight: 400;
-	 font-size: 1em;
-	 line-height: 1.72em;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.72em;
 }
 
 p.story-info {
-	 font-size: 1em;
-	 line-height: 1.72em;
-	 font-family: Merriweather;
-	 font-weight: 400;
-	 font-style: italic;
-	 margin: 2em 0em 0em 0em;
-	 text-align: left;
-	 color: rgba(117, 117, 117, 1);
-	 border-style: dashed;
-	 border-color: rgba(186, 74, 74, 1);
-	 background-color: rgba(252, 231, 186, 0.59);
-	 border-width: 2px;
-	 padding: 1em;
+  font-size: 1em;
+  line-height: 1.72em;
+  font-family: Merriweather;
+  font-weight: 400;
+  font-style: italic;
+  margin: 2em 0em 0em 0em;
+  text-align: left;
+  color: rgba(117, 117, 117, 1);
+  border-style: dashed;
+  border-color: rgba(186, 74, 74, 1);
+  background-color: rgba(252, 231, 186, 0.59);
+  border-width: 2px;
+  padding: 1em;
 }
 
 div.storyteller-info {
-	 width: 80%;
-	 margin: 0 auto;
-	 padding: 2.5em 0 2.5em 0;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2.5em 0 2.5em 0;
 }
 
 div.site-footer {
-	 padding: 2em 0 3.5em 0;
-	 background-color: #333;
-	 color: #fff;
+  padding: 2em 0 3.5em 0;
+  background-color: #333;
+  color: #fff;
 }
 
 div.storyteller-container {
-	 background-color: rgba(124, 172, 244, 0.47);
+  background-color: rgba(124, 172, 244, 0.47);
 }
 
 img.storyteller {
-	 -webkit-border-radius: 50%;
-	 -o-border-radius: 50%;
-	 -moz-border-radius: 50%;
-	 -ms-border-radius: 50%;
-	 max-width: 100%;
-	 width: 200px;
-	 border-radius: 50%;
-	 display: block;
-	 margin: 0 auto 1.8em auto;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  max-width: 100%;
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1.8em auto;
 }
 
 ul.footer-nav {
-	 list-style: none;
-	 display: table;
-	 width: 60%;
-	 margin: 0 auto;
+  list-style: none;
+  display: table;
+  width: 60%;
+  margin: 0 auto;
 }
 
 div.story-container {
-	 padding: 5em 0em 2em 0em;
-	 text-align: left;
-	 width: 80%;
-	 margin: 0em auto;
+  padding: 5em 0em 2em 0em;
+  text-align: left;
+  width: 80%;
+  margin: 0em auto;
 }
 
 blockquote.story {
-	 font-family: "Merriweather";
-	 font-weight: 400;
-	 font-style: italic;
-	 font-size: 1.2em;
-	 line-height: 1.617em;
-	 margin: 0px 0px 1.5em 1em;
-	 padding: 0px;
-	 text-align: left;
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.2em;
+  line-height: 1.617em;
+  margin: 0px 0px 1.5em 1em;
+  padding: 0px;
+  text-align: left;
 }
 
 li.footer-nav {
-	 display: table-cell;
-	 width: 100%;
+  display: table-cell;
+  width: 100%;
 }
 
 li.footer-nav a {
-	 color: white;
-    text-decoration: none;
-	 font-size: 1.5em;
-	 font-family: "Open Sans";
-	 font-weight: 400;
-	 font-style: normal;
-    padding: 0 0.6em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  padding: 0 0.6em;
 }
 
 @media screen and (min-width: 320px) @media screen and (min-width: 480px) {
-	 p.story {
-	 font-size: 1.1em;
-	 line-height: 1.72em;
-}
+  p.story {
+    font-size: 1.1em;
+    line-height: 1.72em;
+  }
 
-p.storyteller-bio {
-	 font-size: 1.1em;
-	 line-height: 1.72em;
-}
+  p.storyteller-bio {
+    font-size: 1.1em;
+    line-height: 1.72em;
+  }
 
-blockquote.story {
-	 font-size: 1.29em;
-	 line-height: 1.618em;
-}
+  blockquote.story {
+    font-size: 1.29em;
+    line-height: 1.618em;
+  }
 
-p.story-info {
-	 font-size: 1.1em;
-	 line-height: 1.72em;
-}
+  p.story-info {
+    font-size: 1.1em;
+    line-height: 1.72em;
+  }
 
-h1.storyteller-name {
-	 font-size: 1.8em;
-	 line-height: 1.363em;
-	 margin-bottom: 0.5em;
-}
+  h1.storyteller-name {
+    font-size: 1.8em;
+    line-height: 1.363em;
+    margin-bottom: 0.5em;
+  }
 
-div.site-footer {
-	 padding: 2em 0 4em 0;
-}
+  div.site-footer {
+    padding: 2em 0 4em 0;
+  }
 
-li.footer-nav a {
-	 font-size: 1.8em;
-}
+  li.footer-nav a {
+    font-size: 1.8em;
+  }
 
-img.storyteller {
-	 margin-bottom: 1.2em;
+  img.storyteller {
+    margin-bottom: 1.2em;
+  }
 }
+@media screen and (min-width: 768px) {
+  div.story-container {
+    width: 80%;
+    padding: 10em 0px 3em 0px;
+  }
 
-} @media screen and (min-width: 768px) {
-	 div.story-container {
-	 width: 80%;
-	 padding: 10em 0px 3em 0px;
+  p.story-info {
+    padding: 1.2em;
+    width: 75%;
+  }
+
+  h1.storyteller-name {
+    font-size: 2em;
+    line-height: 1.363em;
+    margin: 0px 0px 0.4em 0px;
+    text-align: left;
+  }
+
+  div.storyteller-info {
+    width: 80%;
+    padding: 3.5em 0px 4em 0px;
+  }
+
+  blockquote.story {
+    margin: 0px 0px 1.474em 2em;
+  }
+
+  div.site-footer {
+    padding: 2.5em 0 6em 0;
+  }
+
+  li.footer-nav a {
+    font-size: 2em;
+  }
+
+  img.storyteller {
+    float: left;
+    margin: 0px 2.5em 1em 0px;
+  }
+
+  p.storyteller-bio {
+    text-align: left;
+  }
+
+  ul.footer-nav {
+    width: 40%;
+  }
 }
+@media screen and (min-width: 1024px) {
+  div.story-container {
+    width: 70%;
+    padding: 10em 0px 5em 0px;
+  }
 
-p.story-info {
-	 padding: 1.2em;
-	 width: 75%;
+  p.story {
+    font-size: 1.16em;
+    line-height: 1.82em;
+  }
+
+  blockquote.story {
+    font-size: 1.51em;
+    line-height: 1.619em;
+    margin: 1em 0px 2em 1.962em;
+  }
+
+  p.story-info {
+    margin: 3em 0px 0px 0px;
+    font-size: 1.16em;
+    line-height: 1.82em;
+  }
+
+  img.storyteller {
+    margin: 0px 3em 1em 0px;
+  }
+
+  div.storyteller-info {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  p.storyteller-bio {
+    font-size: 1.16em;
+    line-height: 1.82em;
+  }
+
+  h1.storyteller-name {
+    font-size: 2.2em;
+  }
+
+  div.site-footer {
+    padding: 2.5em 0 7em 0;
+  }
+
+  li.footer-nav a {
+    font-size: 2.1em;
+  }
+
+  ul.footer-nav {
+    width: 35%;
+  }
 }
+@media screen and (min-width: 1280px) {
+  p.story {
+    font-size: 1.29em;
+    line-height: 1.821em;
+  }
 
-h1.storyteller-name {
-	 font-size: 2em;
-	 line-height: 1.363em;
-	 margin: 0px 0px 0.4em 0px;
-	 text-align: left;
+  p.story-info {
+    font-size: 1.29em;
+    line-height: 1.821em;
+  }
+
+  div.story-container {
+    width: 60%;
+  }
+
+  div.site-footer {
+    padding: 3em 0 8em 0;
+  }
+
+  p.storyteller-bio {
+    font-size: 1.29em;
+    line-height: 1.821em;
+  }
+
+  img.storyteller {
+    margin-bottom: 1em;
+  }
+
+  ul.footer-nav {
+    width: 30%;
+  }
 }
-
-div.storyteller-info {
-	 width: 80%;
-	 padding: 3.5em 0px 4em 0px;
-}
-
-blockquote.story {
-	 margin: 0px 0px 1.474em 2em;
-}
-
-div.site-footer {
-	 padding: 2.5em 0 6em 0;
-}
-
-li.footer-nav a {
-	 font-size: 2em;
-}
-
-img.storyteller {
-	 float: left;
-	 margin: 0px 2.5em 1em 0px;
-}
-
-p.storyteller-bio {
-	 text-align: left;
-}
-
-ul.footer-nav {
-	 width: 40%;
-}
-
-} @media screen and (min-width: 1024px) {
-	 div.story-container {
-	 width: 70%;
-	 padding: 10em 0px 5em 0px;
-}
-
-p.story {
-	 font-size: 1.16em;
-	 line-height: 1.82em;
-}
-
-blockquote.story {
-	 font-size: 1.51em;
-	 line-height: 1.619em;
-	 margin: 1em 0px 2em 1.962em;
-}
-
-p.story-info {
-	 margin: 3em 0px 0px 0px;
-	 font-size: 1.16em;
-	 line-height: 1.82em;
-}
-
-img.storyteller {
-	 margin: 0px 3em 1em 0px;
-}
-
-div.storyteller-info {
-	 width: 70%;
-	 margin: 0 auto;
-}
-
-p.storyteller-bio {
-	 font-size: 1.16em;
-	 line-height: 1.82em;
-}
-
-h1.storyteller-name {
-	 font-size: 2.2em;
-}
-
-div.site-footer {
-	 padding: 2.5em 0 7em 0;
-}
-
-li.footer-nav a {
-	 font-size: 2.1em;
-}
-
-ul.footer-nav {
-	 width: 35%;
-}
-
-} @media screen and (min-width: 1280px) {
-	 p.story {
-	 font-size: 1.29em;
-	 line-height: 1.821em;
-}
-
-p.story-info {
-	 font-size: 1.29em;
-	 line-height: 1.821em;
-}
-
-div.story-container {
-	 width: 60%;
-}
-
-div.site-footer {
-	 padding: 3em 0 8em 0;
-}
-
-p.storyteller-bio {
-	 font-size: 1.29em;
-	 line-height: 1.821em;
-}
-
-img.storyteller {
-	 margin-bottom: 1em;
-}
-
-ul.footer-nav {
-	 width: 30%;
-}
-
-} 
