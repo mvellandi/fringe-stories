@@ -83,8 +83,7 @@ h1.stories-description {
 
 div.masthead {
   margin: 0 auto;
-  padding: 1.2em 0 2.2em 0;
-  height: auto;
+  padding: 1.2em 0 1em 0;
   background-color: rgb(209, 52, 52);
 }
 
@@ -113,16 +112,9 @@ div.site-footer {
 }
 
 ul.masthead-nav {
-  display: table;
+  display: flex;
+  justify-content: center;
   list-style: none;
-  float: right;
-  margin-right: 1.4em;
-}
-
-li.masthead-nav {
-  display: table-cell;
-  text-align: right;
-  width: 100%;
 }
 
 li.masthead-nav a {
@@ -131,7 +123,7 @@ li.masthead-nav a {
   font-family: "Open Sans";
   font-weight: 400;
   font-style: normal;
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding: 0 0.6em;
 }
 
@@ -176,11 +168,7 @@ li.masthead-nav:last-child {
   }
 
   li.masthead-nav a {
-    font-size: 1.3em;
-  }
-
-  ul.masthead-nav {
-    margin-right: 4em;
+    font-size: 1.55em;
   }
 
   li.masthead-nav:last-child {
@@ -211,12 +199,8 @@ li.masthead-nav:last-child {
     padding-left: 3.3em;
   }
 
-  ul.masthead-nav {
-    margin-right: 5em;
-  }
-
   li.masthead-nav a {
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
 }
 @media screen and (min-width: 768px) {
@@ -241,10 +225,6 @@ li.masthead-nav:last-child {
 
   div.masthead {
     padding: 1.8em 0 2.6em 0;
-  }
-
-  ul.masthead-nav {
-    margin-right: 6em;
   }
 
   li.masthead-nav:last-child {
@@ -275,11 +255,7 @@ li.masthead-nav:last-child {
   }
 
   li.masthead-nav a {
-    font-size: 1.5em;
-  }
-
-  ul.masthead-nav {
-    margin-right: 11em;
+    font-size: 2em;
   }
 
   div.masthead {
@@ -316,9 +292,5 @@ li.masthead-nav:last-child {
 
   li.masthead-nav:last-child {
     padding-left: 6.5em;
-  }
-
-  ul.masthead-nav {
-    margin-right: 17em;
   }
 }
