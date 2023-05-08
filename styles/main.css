@@ -25,27 +25,23 @@ a.story-link {
   color: black;
 }
 
-div.story-list {
-  text-align: center;
+.story-list-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   padding-top: 2em;
+  border: 1px solid red;
 }
 
-.story-list:before,
-.story-list:after {
-  content: "";
-  display: table;
-}
-
-.story-list:after {
-  clear: both;
-}
-
-.story-list {
-  clear: both;
-  *zoom: 1;
+div.story-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  max-width: 1600px;
 }
 
 h2.story-list-item-name {
+  margin: 10px 0 2px 0;
   font-size: 1.2em;
   text-align: center;
   font-family: "Open Sans";
@@ -99,7 +95,7 @@ img.story-list-item {
   width: 150px;
   border-radius: 50%;
   display: block;
-  margin: 0 auto 6px auto;
+  margin: 0 auto;
 }
 
 div.site-footer {
@@ -154,10 +150,6 @@ li.masthead-nav:last-child {
     width: 50%;
   }
 
-  div.story-list {
-    padding: 2em 2em 0 2em;
-  }
-
   div.page-description {
     padding: 3em 1em 1.875em 1em;
     height: 170px;
@@ -187,10 +179,6 @@ li.masthead-nav:last-child {
     height: 196px;
   }
 
-  div.story-list {
-    padding: 2em 3em 0 3em;
-  }
-
   div.story-list-item {
     padding-bottom: 2em;
   }
@@ -215,10 +203,6 @@ li.masthead-nav:last-child {
     line-height: 1.6em;
   }
 
-  div.story-list {
-    padding: 2.2em 4em 0 4em;
-  }
-
   div.page-description {
     padding: 3em 1em 2.5em 1em;
   }
@@ -232,10 +216,6 @@ li.masthead-nav:last-child {
   }
 }
 @media screen and (min-width: 1024px) {
-  div.story-list {
-    padding: 2.5em 8em 0 8em;
-  }
-
   h1.stories-description {
     font-size: 1.93em;
     line-height: 1.5em;
@@ -271,10 +251,6 @@ li.masthead-nav:last-child {
   }
 }
 @media screen and (min-width: 1280px) {
-  div.story-list {
-    padding: 2.8em 11em 0 11em;
-  }
-
   div.page-description {
     height: 265px;
     padding: 5em 16px 40px 16px;
